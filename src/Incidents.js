@@ -12,6 +12,7 @@ const [selectedIncident, setSelectedIncident] = useState(null);
   };
   // Replace with your actual data
   const incidents = [
+    { id: 2, src: '3.mp4', alt: 'Fire Video', type: 'video', fileName: 'Forest.mp4', date: '2021-08-20', timestamp: '5:35'},
     { id: 2, src: '2.jpg', alt: 'Stacked logs', type: 'image', fileName: 'Forest.jpg', date: '2021-07-20', timestamp: '15:35'},
     { id: 3, src: '3.jpg', alt: 'Blue wooden texture', alt: 'Surveillance video', type: 'image', fileName: 'Surveillance.jpg', date: '2021-07-21', timestamp: '12:15' },// Incidents.js
 
