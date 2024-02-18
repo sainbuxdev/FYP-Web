@@ -1,8 +1,6 @@
 // App.js
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
-import Sidebar from './Sidebar';
-import Header from './Header';
 import MainContent from './Maincontent';
 import Profile from './Profile';
 import LoginPage from './LoginPage';
